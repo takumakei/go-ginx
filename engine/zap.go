@@ -13,12 +13,12 @@ var (
 	DefaultWriter io.Writer
 	DefaultLevel  zapcore.Level = zapcore.DebugLevel
 	DefaultMsg    string        = "GIN"
-	DefaultKey    string        = "line"
+	DefaultKey    string        = "L"
 
 	DefaultErrorWriter io.Writer
 	DefaultErrorLevel  zapcore.Level = zapcore.ErrorLevel
 	DefaultErrorMsg    string        = "GIN"
-	DefaultErrorKey    string        = "line"
+	DefaultErrorKey    string        = "L"
 )
 
 func init() {
